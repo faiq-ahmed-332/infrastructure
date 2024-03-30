@@ -187,3 +187,4 @@ resource "aws_s3_account_public_access_block" "example" {
   ignore_public_acls      = true
   restrict_public_buckets = true
 }
+

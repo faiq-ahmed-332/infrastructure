@@ -10,6 +10,7 @@ variable "s3_bucket_img" { default = "user-profile-pictures" }
 variable "key_name" { default = "terraform" }
 
 # Provider
+
 variable "region" { default = "eu-west-2" }
 
 # VPC

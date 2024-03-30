@@ -6,6 +6,7 @@
 #   sg_public_pub_inst - default SG for all public instances in the public subnets (elb)
 #   sg_appdata_pub_inst  - default SG for all instances in the appdata subnets(database and instances)
 
+
 # Security Group - Public Facing Instance
 resource "aws_security_group" "sg_public_pub_inst" {
   name = "sg_public_pub_inst"

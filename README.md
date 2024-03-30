@@ -9,6 +9,7 @@
 - aws cli
 - git bash
 
+
 # client set up (terraform exe, aws cli and git bash)
  - 1 installing terraform
     navigate to https://releases.hashicorp.com/terraform/ and pull zip for the client platform (linux windwos) 
