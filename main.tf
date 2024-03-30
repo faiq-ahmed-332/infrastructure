@@ -159,9 +159,6 @@ resource "aws_s3_bucket" "img" {
   
 }
 
-
-
-
 resource "aws_s3_bucket" "doc" {
   bucket        = var.s3_bucket_doc
   #policy        = "${data.aws_iam_policy_document.bucket_policy.json}"

@@ -36,5 +36,3 @@ variable "s3_versioning" { default = "true" }
 
 # Owner
 variable "owner" { default = "Terraform" }
-
-
